@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF384031A6CCE10009144B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF384021A6CCE10009144B4 /* Foundation.framework */; };
+		CCF384051A6CCE10009144B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF384041A6CCE10009144B4 /* CoreGraphics.framework */; };
+		CCF384071A6CCE10009144B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF384061A6CCE10009144B4 /* UIKit.framework */; };
+		CCF3840D1A6CCE10009144B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF3840B1A6CCE10009144B4 /* InfoPlist.strings */; };
+		CCF3840F1A6CCE10009144B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF3840E1A6CCE10009144B4 /* main.m */; };
+		CCF384131A6CCE10009144B4 /* MIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF384121A6CCE10009144B4 /* MIAppDelegate.m */; };
+		CCF384161A6CCE10009144B4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF384141A6CCE10009144B4 /* Main_iPhone.storyboard */; };
+		CCF384191A6CCE10009144B4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF384171A6CCE10009144B4 /* Main_iPad.storyboard */; };
+		CCF3841C1A6CCE10009144B4 /* MIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF3841B1A6CCE10009144B4 /* MIViewController.m */; };
+		CCF3841E1A6CCE10009144B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF3841D1A6CCE10009144B4 /* Images.xcassets */; };
+		CCF384251A6CCE10009144B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF384241A6CCE10009144B4 /* XCTest.framework */; };
+		CCF384261A6CCE10009144B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF384021A6CCE10009144B4 /* Foundation.framework */; };
+		CCF384271A6CCE10009144B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF384061A6CCE10009144B4 /* UIKit.framework */; };
+		CCF3842F1A6CCE10009144B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF3842D1A6CCE10009144B4 /* InfoPlist.strings */; };
+		CCF384311A6CCE10009144B4 /* _016OlympicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF384301A6CCE10009144B4 /* _016OlympicsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF384281A6CCE10009144B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF383F71A6CCE10009144B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF383FE1A6CCE10009144B4;
+			remoteInfo = 2016Olympics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF383FF1A6CCE10009144B4 /* 2016Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2016Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF384021A6CCE10009144B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCF384041A6CCE10009144B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCF384061A6CCE10009144B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCF3840A1A6CCE10009144B4 /* 2016Olympics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2016Olympics-Info.plist"; sourceTree = "<group>"; };
+		CCF3840C1A6CCE10009144B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF3840E1A6CCE10009144B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCF384101A6CCE10009144B4 /* 2016Olympics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2016Olympics-Prefix.pch"; sourceTree = "<group>"; };
+		CCF384111A6CCE10009144B4 /* MIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIAppDelegate.h; sourceTree = "<group>"; };
+		CCF384121A6CCE10009144B4 /* MIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIAppDelegate.m; sourceTree = "<group>"; };
+		CCF384151A6CCE10009144B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CCF384181A6CCE10009144B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CCF3841A1A6CCE10009144B4 /* MIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIViewController.h; sourceTree = "<group>"; };
+		CCF3841B1A6CCE10009144B4 /* MIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIViewController.m; sourceTree = "<group>"; };
+		CCF3841D1A6CCE10009144B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCF384231A6CCE10009144B4 /* 2016OlympicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2016OlympicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF384241A6CCE10009144B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCF3842C1A6CCE10009144B4 /* 2016OlympicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2016OlympicsTests-Info.plist"; sourceTree = "<group>"; };
+		CCF3842E1A6CCE10009144B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF384301A6CCE10009144B4 /* _016OlympicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _016OlympicsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF383FC1A6CCE10009144B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF384051A6CCE10009144B4 /* CoreGraphics.framework in Frameworks */,
+				CCF384071A6CCE10009144B4 /* UIKit.framework in Frameworks */,
+				CCF384031A6CCE10009144B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF384201A6CCE10009144B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF384251A6CCE10009144B4 /* XCTest.framework in Frameworks */,
+				CCF384271A6CCE10009144B4 /* UIKit.framework in Frameworks */,
+				CCF384261A6CCE10009144B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF383F61A6CCE10009144B4 = {
+			isa = PBXGroup;
+			children = (
+				CCF384081A6CCE10009144B4 /* 2016Olympics */,
+				CCF3842A1A6CCE10009144B4 /* 2016OlympicsTests */,
+				CCF384011A6CCE10009144B4 /* Frameworks */,
+				CCF384001A6CCE10009144B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF384001A6CCE10009144B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF383FF1A6CCE10009144B4 /* 2016Olympics.app */,
+				CCF384231A6CCE10009144B4 /* 2016OlympicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF384011A6CCE10009144B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF384021A6CCE10009144B4 /* Foundation.framework */,
+				CCF384041A6CCE10009144B4 /* CoreGraphics.framework */,
+				CCF384061A6CCE10009144B4 /* UIKit.framework */,
+				CCF384241A6CCE10009144B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCF384081A6CCE10009144B4 /* 2016Olympics */ = {
+			isa = PBXGroup;
+			children = (
+				CCF384111A6CCE10009144B4 /* MIAppDelegate.h */,
+				CCF384121A6CCE10009144B4 /* MIAppDelegate.m */,
+				CCF384141A6CCE10009144B4 /* Main_iPhone.storyboard */,
+				CCF384171A6CCE10009144B4 /* Main_iPad.storyboard */,
+				CCF3841A1A6CCE10009144B4 /* MIViewController.h */,
+				CCF3841B1A6CCE10009144B4 /* MIViewController.m */,
+				CCF3841D1A6CCE10009144B4 /* Images.xcassets */,
+				CCF384091A6CCE10009144B4 /* Supporting Files */,
+			);
+			path = 2016Olympics;
+			sourceTree = "<group>";
+		};
+		CCF384091A6CCE10009144B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3840A1A6CCE10009144B4 /* 2016Olympics-Info.plist */,
+				CCF3840B1A6CCE10009144B4 /* InfoPlist.strings */,
+				CCF3840E1A6CCE10009144B4 /* main.m */,
+				CCF384101A6CCE10009144B4 /* 2016Olympics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF3842A1A6CCE10009144B4 /* 2016OlympicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF384301A6CCE10009144B4 /* _016OlympicsTests.m */,
+				CCF3842B1A6CCE10009144B4 /* Supporting Files */,
+			);
+			path = 2016OlympicsTests;
+			sourceTree = "<group>";
+		};
+		CCF3842B1A6CCE10009144B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3842C1A6CCE10009144B4 /* 2016OlympicsTests-Info.plist */,
+				CCF3842D1A6CCE10009144B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF383FE1A6CCE10009144B4 /* 2016Olympics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF384341A6CCE10009144B4 /* Build configuration list for PBXNativeTarget "2016Olympics" */;
+			buildPhases = (
+				CCF383FB1A6CCE10009144B4 /* Sources */,
+				CCF383FC1A6CCE10009144B4 /* Frameworks */,
+				CCF383FD1A6CCE10009144B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2016Olympics;
+			productName = 2016Olympics;
+			productReference = CCF383FF1A6CCE10009144B4 /* 2016Olympics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF384221A6CCE10009144B4 /* 2016OlympicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF384371A6CCE10009144B4 /* Build configuration list for PBXNativeTarget "2016OlympicsTests" */;
+			buildPhases = (
+				CCF3841F1A6CCE10009144B4 /* Sources */,
+				CCF384201A6CCE10009144B4 /* Frameworks */,
+				CCF384211A6CCE10009144B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF384291A6CCE10009144B4 /* PBXTargetDependency */,
+			);
+			name = 2016OlympicsTests;
+			productName = 2016OlympicsTests;
+			productReference = CCF384231A6CCE10009144B4 /* 2016OlympicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF383F71A6CCE10009144B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = milo;
+				TargetAttributes = {
+					CCF384221A6CCE10009144B4 = {
+						TestTargetID = CCF383FE1A6CCE10009144B4;
+					};
+				};
+			};
+			buildConfigurationList = CCF383FA1A6CCE10009144B4 /* Build configuration list for PBXProject "2016Olympics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF383F61A6CCE10009144B4;
+			productRefGroup = CCF384001A6CCE10009144B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF383FE1A6CCE10009144B4 /* 2016Olympics */,
+				CCF384221A6CCE10009144B4 /* 2016OlympicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF383FD1A6CCE10009144B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF384191A6CCE10009144B4 /* Main_iPad.storyboard in Resources */,
+				CCF3841E1A6CCE10009144B4 /* Images.xcassets in Resources */,
+				CCF384161A6CCE10009144B4 /* Main_iPhone.storyboard in Resources */,
+				CCF3840D1A6CCE10009144B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF384211A6CCE10009144B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3842F1A6CCE10009144B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF383FB1A6CCE10009144B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF384131A6CCE10009144B4 /* MIAppDelegate.m in Sources */,
+				CCF3841C1A6CCE10009144B4 /* MIViewController.m in Sources */,
+				CCF3840F1A6CCE10009144B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3841F1A6CCE10009144B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF384311A6CCE10009144B4 /* _016OlympicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF384291A6CCE10009144B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF383FE1A6CCE10009144B4 /* 2016Olympics */;
+			targetProxy = CCF384281A6CCE10009144B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF3840B1A6CCE10009144B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF3840C1A6CCE10009144B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCF384141A6CCE10009144B4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF384151A6CCE10009144B4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF384171A6CCE10009144B4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF384181A6CCE10009144B4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF3842D1A6CCE10009144B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF3842E1A6CCE10009144B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF384321A6CCE10009144B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF384331A6CCE10009144B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF384351A6CCE10009144B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2016Olympics/2016Olympics-Prefix.pch";
+				INFOPLIST_FILE = "2016Olympics/2016Olympics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCF384361A6CCE10009144B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2016Olympics/2016Olympics-Prefix.pch";
+				INFOPLIST_FILE = "2016Olympics/2016Olympics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCF384381A6CCE10009144B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2016Olympics.app/2016Olympics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2016Olympics/2016Olympics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2016OlympicsTests/2016OlympicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCF384391A6CCE10009144B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2016Olympics.app/2016Olympics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2016Olympics/2016Olympics-Prefix.pch";
+				INFOPLIST_FILE = "2016OlympicsTests/2016OlympicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF383FA1A6CCE10009144B4 /* Build configuration list for PBXProject "2016Olympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF384321A6CCE10009144B4 /* Debug */,
+				CCF384331A6CCE10009144B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF384341A6CCE10009144B4 /* Build configuration list for PBXNativeTarget "2016Olympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF384351A6CCE10009144B4 /* Debug */,
+				CCF384361A6CCE10009144B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF384371A6CCE10009144B4 /* Build configuration list for PBXNativeTarget "2016OlympicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF384381A6CCE10009144B4 /* Debug */,
+				CCF384391A6CCE10009144B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF383F71A6CCE10009144B4 /* Project object */;
+}
